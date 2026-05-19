@@ -22,4 +22,4 @@ def describe(numbers):
     maximo = find_max(numbers)
     rango = range_of(numbers)
     promedio = average(numbers)
-    return f"Min:{minimo} Max:{maximo} Range:{rango} Avg:{promedio}"
+    return (f"Min:{minimo} Max:{maximo} Range:{rango} Avg:{promedio}")
